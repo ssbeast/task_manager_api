@@ -14,3 +14,12 @@ const User = mongoose.model('User', {
         type: Number
     }
 })
+
+const Task = mongoose.model('Task', {
+    description: {
+        type: String
+    },
+    completed: {
+        type: Boolean
+    }
+})
